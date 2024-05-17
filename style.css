@@ -26,9 +26,21 @@ nav{
 }
 
 div{
-    margin-top: 90px;
-    border-radius: 10px;
-    border-color: cadetblue;
-    border-width: 9px;
+    textarea{
+        text-align: center;
+        background-color: rgb(195, 37, 37);      
+    }    
+    text-align: center;
+    background-color: black;
+    margin-top: 10px;
+    border-color: rgb(255, 255, 255);
+    border-width: 1px;
     border-style: solid;
+    
+}
+
+span{
+    background-color: black;
+    text-align: center;
+    margin: 180px;
 }
