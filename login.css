@@ -8,8 +8,130 @@
 
 body{
     width: 100xw;
-    color: #ffffff;
+    color: #c39898;
     font-size: 16px;
     overflow: hidden;
+    font-family: "Poppins", sans-serif;
+    font-weight: 450;
 }
 
+selection{
+    position: absolute;
+    top: 100px;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+
+    & .login-container{
+        background-color: rgb(36, 138, 163);
+        border-radius: 10px;
+        position: relative;
+        width: 390px;
+        height: 550px;
+        display: list-item;
+
+        & img{
+            width: 250px;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            top: 2%;
+        }
+
+        & ul{
+            margin: 0px;
+            left: 50%;
+            transform: translateX(-50%);
+            top: 400px;
+            position: relative;
+            text-align: center;
+            display: block;
+
+            & .blank{
+                height: 10px;
+            }
+
+            & .user-container{
+                height: 32px;
+                width: 200px;
+                background-color: rgba(255, 255, 255, 0);
+                border: 0.5px;
+                background-color: white;
+                border-color: black;
+                border-style: solid;
+                border-radius: 5px;
+                position: relative;
+                left: 50%;
+                transform: translateX(-50%);
+                text-align: right;
+                display: grid;
+                align-items: stretch;
+                justify-content: end;
+
+                & img{
+                    position: absolute;
+                    width: 25px;
+                    margin: 2px 9px 4px 9px;
+                    left: 8px;
+                }
+
+                & .login{
+                    color: rgb(95, 95, 95);
+                    vertical-align: top;
+                    background-color: transparent;
+                    border: 0px;
+                    font-weight: normal;
+                    outline: none;
+                }
+
+            }
+        }
+    }
+}
+
+body div ul li.password-container{
+    height: 32px;
+    width: 200px;
+    border: 0.5px;
+    background-color: rgb(255, 255, 255);
+    border-color: black;
+    border-style: solid;
+    border-radius: 5px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: grid;
+    align-items: stretch;
+    justify-content: end;
+
+    & img{
+        position: absolute;
+        width: 25px;
+        margin: 2px 9px 4px 9px;
+        left: 8px;
+        border: 0;
+    }
+
+    & .password{
+        color: rgb(58, 58, 58);
+        vertical-align: top;
+        background-color: transparent;
+        border: 0px;
+        outline: none;
+    }
+}
+
+div.button{
+    background-color: rgb(15, 93, 170);
+    width: 100px;
+    height: 25px;
+    position: fixed;
+    top: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: grid;
+
+    & button{
+        border: 0;
+    }
+}

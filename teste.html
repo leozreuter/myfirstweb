@@ -3,25 +3,33 @@
     <head>
         <title>Login</title>
         <link href="login.css" rel="stylesheet" />
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        </style>
     </head>
     <body>
         <selection>
-            <div>
-                <img src="ju.jpg">
+            <div class="login-container">
+                <img src="login.jpg">
                 
-                <form class="login">
-                    <input type="text">
+                <ul>
+                    <li class="user-container">
+                        <img src="key.png">
+                        <input class="login" type="text" placeholder="Username" maxlength="20">
+                    </li>
 
-                </form>
+                    <li class="blank"></li>
 
-                <form class="senha">
-                    <input type="password">
-                    
-                </form>
-
-                <button>
-                    LOGIN
-                </button>
+                    <li class="password-container">
+                        <img src="key.png">
+                        <input class="password" type="password" placeholder="Password"> 
+                    </li>
+                </ul>
+                <div class="button">
+                    <button>
+                        LOGIN
+                    </button>
+                </div>
             </div>
         </selection>
     </body>

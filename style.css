@@ -10,7 +10,7 @@ body{
     width: 100xw;
     color: #ffffff;
     font-size: 16px;
-    overflow: visible;
+    overflow: hidden;
 }
 
 header{
