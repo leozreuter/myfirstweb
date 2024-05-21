@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>Login</title>
-        <link href="login.css" rel="stylesheet" />
+        <link rel="stylesheet" href="login.css">
         <style>
             @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
         </style>
@@ -15,20 +15,26 @@
                 <ul>
                     <li class="user-container">
                         <img src="key.png">
-                        <input class="login" type="text" placeholder="Username" maxlength="20">
+                        <input id="login" class="login" type="text" placeholder="Username" maxlength="20">
                     </li>
 
                     <li class="blank"></li>
 
                     <li class="password-container">
                         <img src="key.png">
-                        <input class="password" type="password" placeholder="Password"> 
+                        <input id="password" class="password" type="password" placeholder="Password"> 
                     </li>
                 </ul>
                 <div class="button">
-                    <button>
+                    <button type="button" onclick="Evento()">
                         LOGIN
                     </button>
+
+                    <script>
+                        function Evento(){
+                            alert("a");
+                        }
+                    </script>
                 </div>
             </div>
         </selection>
